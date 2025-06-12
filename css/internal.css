@@ -1,0 +1,205 @@
+.font-pacifico {
+      font-family: "Pacifico", cursive;
+    }
+    
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Left side styles */
+    .left-side {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 48px 24px;
+      background: linear-gradient(to bottom, #5ca9f9, #a0f2a0);
+    }
+    
+    @media (min-width: 768px) {
+      .left-side {
+        width: 50%;
+      }
+    }
+    
+    .logo {
+      font-family: "Merienda", cursive;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+      margin-bottom: 0%;
+      margin-left: 25%;
+    }
+    
+    @media (min-width: 768px) {
+      .logo {
+        font-size: 3rem;
+      }
+    }
+    
+    .tagline {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: black;
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      margin-right: 25%;
+      user-select: none;
+    }
+    
+    @media (min-width: 768px) {
+      .tagline {
+        font-size: 1.25rem;
+      }
+    }
+    
+    .tagline span.text-slate-700 {
+      color: #334155;
+    }
+    
+    .tagline-bottom {
+      margin-bottom: 2rem;;
+      margin-left: 55%;
+    }
+    
+    .illustration {
+      margin-bottom: 2rem;
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .explore-btn {
+      background-color: #1ea1f2;
+      color: black;
+      font-family: "Pacifico", cursive;
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
+      border-radius: 0.25rem;
+      border: none;
+      cursor: pointer;
+      user-select: none;
+    }
+    
+    /* Right side styles */
+    .right-side {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 48px 32px;
+      background-color: white;
+    }
+    
+    @media (min-width: 768px) {
+      .right-side {
+        width: 50%;
+      }
+    }
+    
+    .form-title {
+      color: #0a5c6a;
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-bottom: 0.25rem;
+      user-select: none;
+    }
+    
+    .welcome-text {
+      color: black;
+      font-size: 0.875rem;
+      margin-bottom: 1.5rem;
+      user-select: none;
+    }
+    
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+    
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+    
+    .form-label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: black;
+      margin-bottom: 0.25rem;
+      user-select: none;
+    }
+    
+    .input-container {
+      position: relative;
+    }
+    
+    .input-icon {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0.75rem;
+      display: flex;
+      align-items: center;
+      color: #9ca3af;
+    }
+    
+    .form-input {
+      width: 100%;
+      border: 1px solid #d1d5db;
+      border-radius: 0.25rem;
+      padding: 0.5rem 2.5rem;
+      font-size: 0.75rem;
+      color: black;
+    }
+    
+    .form-input::placeholder {
+      color: #9ca3af;
+    }
+    
+    .form-input:focus {
+      outline: none;
+      border-color: #1ea1f2;
+      box-shadow: 0 0 0 2px rgba(30, 161, 242, 0.5);
+    }
+    
+    .submit-btn {
+      width: 100%;
+      background-color: #1ea1f2;
+      color: black;
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+    }
+    
+    .login-text {
+      color: black;
+      font-size: 0.75rem;
+      margin-top: 1rem;
+      text-align: center;
+      user-select: none;
+    }
+    
+    .login-link {
+      color: #0a5c6a;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    
+    .login-link:hover {
+      text-decoration: underline;
+    }
+    
+    .select-none {
+      user-select: none;
+    }
