@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: white;
+}
+
+.logo {
+    font-family: 'Merienda', cursive;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background: #F5F5F5;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    width: 300px;
+}
+
+.search-input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.profile-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #006D77;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.hero-content {
+    position: relative;
+    width: 600rem;
+    background: linear-gradient(135deg, #A0F2A0 0%, #5CA9F9 100%);
+    border-radius: 0 0  80%;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    z-index: 3;
+    margin-bottom: 1.5rem;
+}
+
+.blue-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #006D77;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: white;
+    max-width: 500px;
+}
+
+.cek-button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #006D77;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.hero-image {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 10%;
+}
+
+.hero-image img {
+    width: 300px;
+    height: auto;
+}
